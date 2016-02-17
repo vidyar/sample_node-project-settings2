@@ -7,8 +7,8 @@ node_js:
   - 0.10.25
 #  - 0.11
 
-services:
-  - mysql
+#services:
+ # - mysql
  
 
 # The path for Xunit to output test reports
