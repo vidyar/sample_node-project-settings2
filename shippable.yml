@@ -38,8 +38,8 @@ after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   
-after_success:
- - if [ "$IS_PULL_REQUEST" != true ]; then docker push shippabledocker/sample_node; fi
+#after_success:
+ #- if [ "$IS_PULL_REQUEST" != true ]; then docker push shippabledocker/sample_node; fi
 
 notifications:  
   irc: 
