@@ -8,7 +8,7 @@ node_js:
 
 env:
  - foo=bar
- - bar=foo
+ - fizz=buzz
 
 # The path for Xunit to output test reports
 env:
